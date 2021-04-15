@@ -43,8 +43,8 @@ public class Main {
     }
 
     // Picks the bots move at Random
-    int bot_move = (Math.random()* 3) + 1;
-
+    int bot = ((int)Math.random()* 3);
+    int bot_move = bot + 1;
     
     result(bot_move, Player_move);
 
