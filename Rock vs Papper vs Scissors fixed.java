@@ -21,7 +21,7 @@ public class Main {
       else{
         System.out.println("Player wins");
       }
-      System.out.println("Player Played " + Player_move + " Bot Played " + bot_move);
+      System.out.println("/n/nPlayer Played " + Player_move + " Bot Played " + bot_move);
     }
 
 
