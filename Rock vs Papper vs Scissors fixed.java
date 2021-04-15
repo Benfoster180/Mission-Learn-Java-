@@ -43,12 +43,8 @@ public class Main {
     }
 
     // Picks the bots move at Random
-    int bot_move = (int)(Math.random()* 4);
-    //Makes sure its betweeen 1 - 3
-    while (bot_move == 4){
-      int Not_0 = (int)(Math.random()* 4);
-      bot_move = Not_0;
-    }
+    int bot_move = (Math.random()* 3) + 1;
+
     
     result(bot_move, Player_move);
 
