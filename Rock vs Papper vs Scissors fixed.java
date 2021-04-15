@@ -8,7 +8,7 @@ public class Main {
       System.out.println("\n\n1 = Rock \n2 = Papper \n3 = Scissors");
     }
 
-
+    // Checks to see who the winner is!
     static void result(int bot_move,int Player_move) { 
 
       if (bot_move == Player_move){
